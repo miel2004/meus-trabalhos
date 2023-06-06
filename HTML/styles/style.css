@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,400;0,600;1,300&display=swap')
+
+:root{
+    --cor-primaria: #000000;
+    --cor-secundaria: #ae1b25;
+    --cor-terciaria: white;
+
+    --fonte-primaria: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+}
+
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+   
+    background-color: #000000;
+    color: 	#ae1b25;
+    box-sizing: border-box;
+}
+
+.titulo{
+color: rgb(235, 39, 39);
+}
+
+strong{
+    color: rgb(245, 241, 241);
+}
+
+.imagem_fora{
+    align-self: flex-start;
+    margin-top: 18%;
+    width: 500px;
+    
+}
+
+
+.apresentacao{
+    padding:  5% 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao__conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.apresentacao__titulo{
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.apresentacao__p{
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.links{
+     display: flex;
+     justify-content: space-between;
+     flex-direction: column;
+     align-items: center;
+     gap: 20px;
+     color: white;
+    
+     
+}
+
+.link__link{
+    width: 350px;
+    text-align: center;
+    border-radius: 8px;  
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21px 0px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #F6F6F6;
+    border: 2px solid #fc0303;    
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.link__h22{
+    font-family: "krona one", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.link__link:hover{
+    background-color: #ae1b25;
+}
+    
+.rodape{
+    color: #fafafa;
+    background-color: #ae1b25;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.home__link{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #ae1b25;
+    text-decoration: none;
+}
+
+.home{
+    padding: 2% 0% 0% 5%;
+}
+
+.home__menu{
+    display: flex;
+    gap: 80px;
+}
+
