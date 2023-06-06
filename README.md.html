@@ -1,0 +1,246 @@
+# meus-trabalhos
+minhas atividades
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 1</title>
+    <link rel="stylesheet" href="./styles/style.css">
+   
+</head>
+
+<body>
+
+  <header class="home">
+    <nav class="home__menu">
+        <a class="home__link" href="aula1.html" >home </a>
+        <a class="home__link" href="aboult.html" >sobre mim</a>
+    </nav>
+  </header>
+
+    <main class="apresentacao">   
+            <section class="apresentacao__conteudo">
+                <h1 class="apresentacao__titulo">
+                    Eleve seu negócio digital a outro nível 
+            <strong>com um Front-end de qualidade!</strong> 
+                </h1>
+
+            <p class="apresentacao__p">  Olá! Sou Joana Santos, desenvolvedora Front-end com 
+                especialidade em React,<strong class="titulo"> HTML e CSS</strong>. Ajudo pequenos negócios e designers a
+                colocarem em prática boas ideias. Vamos conversar?
+            </p>
+        <div class="links">
+            <h2 class="link__h2">acesse minhas redes</h2>
+            <a class="link__link" href="https://instagram.com/mielfl" >
+                <img src="./assents/instagram.png">
+                instagram
+            </a>
+            
+            
+            <a class="link__link "href="https://Github.com/miel2004"> 
+               <img src="./assents/giyhum.png">
+                Github
+
+            <a class="link__link"  href="https://linkedin.com/in/gabriel-lima-felix/">
+                <img src="./assents/linkedin.png" width="30px" >
+                linkedin
+            </a>
+
+        </div>
+            </section>
+    <img class="imagem_fora" src="./assents/download.png" width="500px" alt="foto rick morty" >
+     
+    </main>
+
+    <footer class="rodape">
+        desenvolvido por Gabriel
+    </footer>
+</body>
+    </html>
+    
+    
+   <!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sobre mim</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+
+    <header class="home">
+        <nav class="home__menu">
+            <a class="home__link" href="aula1.html" >home </a>
+            <a class="home__link" href="aboult.html" >sobre mim</a>
+        </nav>
+      </header>
+
+<main class="apresentacao">
+
+    <section class="apresentacao__conteudo">
+       <h1 class="apresentacao__titulo">flamengo</h1>
+
+       <p  class="apresentacao__p">O Flamengo foi fundado em 17 de novembro de 1895 para as
+         disputas de remo.
+         A entrada da equipe no futebol aconteceu em 1912. Atualmente, 
+        o time rubro-negro é o maior vencedor da história do 
+        Campeonato Carioca, com 31 títulos. Segundo diversas pesquisas,
+         é o clube com o maior número de torcedores do País
+        </p>
+
+       <p class="apresentacao__p">Os dois principais títulos da história do Flamengo ocorreram em 1981. 
+        Comandado pelo ídolo Zico, o time conquistou a Copa Libertadores da América,
+         em final contra o Cobreloa, do Chile, e o Mundial Interclubes, diante do Liverpool, 
+         da Inglaterra. Foi na década de 1980, também,
+         que o Flamengo conquistou o seu primeiro Campeonato Brasileiro.
+        </p>
+
+    </section>
+    <img class="imagem_flamengo" src="./assents/flamengo.jpg"  alt="foto mengoy" >
+</main>
+
+      <footer class="rodape">
+        desenvolvido por Gabriel
+    </footer>
+</body>
+</html>
+    
+    
+    
+    
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,400;0,600;1,300&display=swap')
+
+:root{
+    --cor-primaria: #000000;
+    --cor-secundaria: #ae1b25;
+    --cor-terciaria: white;
+
+    --fonte-primaria: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+}
+
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+   
+    background-color: #000000;
+    color: 	#ae1b25;
+    box-sizing: border-box;
+}
+
+.titulo{
+color: rgb(235, 39, 39);
+}
+
+strong{
+    color: rgb(245, 241, 241);
+}
+
+.imagem_fora{
+    align-self: flex-start;
+    margin-top: 18%;
+    width: 500px;
+    
+}
+
+
+.apresentacao{
+    padding:  5% 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao__conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.apresentacao__titulo{
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.apresentacao__p{
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.links{
+     display: flex;
+     justify-content: space-between;
+     flex-direction: column;
+     align-items: center;
+     gap: 20px;
+     color: white;
+    
+     
+}
+
+.link__link{
+    width: 350px;
+    text-align: center;
+    border-radius: 8px;  
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21px 0px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #F6F6F6;
+    border: 2px solid #fc0303;    
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.link__h22{
+    font-family: "krona one", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.link__link:hover{
+    background-color: #ae1b25;
+}
+    
+.rodape{
+    color: #fafafa;
+    background-color: #ae1b25;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.home__link{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #ae1b25;
+    text-decoration: none;
+}
+
+.home{
+    padding: 2% 0% 0% 5%;
+}
+
+.home__menu{
+    display: flex;
+    gap: 80px;
+}
+
+    
+
